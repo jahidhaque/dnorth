@@ -1,0 +1,32 @@
+{
+  "name": "19dnorth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahidhaque/dnorth.git"
+  },
+  "keywords": [
+    "our",
+    "public",
+    "app"
+  ],
+  "author": "jahid haque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahidhaque/dnorth/issues"
+  },
+  "homepage": "https://github.com/jahidhaque/dnorth#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.0"
+  }
+}
