@@ -66,7 +66,8 @@ gulp.task('compile-sass', function(){
 //gulp-task to keep on watching all files.
 gulp.task('watch', function(){
     gulp.watch(paths.scripts, ['compile-js']);
-    gulp.watch("public/scss/*.scss", ['compile-sass'])
+    gulp.watch("public/scss/*.scss", ['compile-sass']);
+    gulp.watch("public/scss/_components/*.scss", ['compile-sass']);
 });
 
 

@@ -21,7 +21,7 @@ App.set('view engine', 'hbs');
 
 App.use(Express.static(Path.join(__dirname + '/public')));
 
-App.get('/', PublicRoutes);
+App.use('/', PublicRoutes);
 
 App.listen(process.env.AppPort, () => {
     console.log(`App started on port ${process.env.AppPort}`);

@@ -1,0 +1,18 @@
+/*
+|----------------------------------------------
+| setting up footer component style
+| @author: jahid haque <jahid.haque@yahoo.com>
+| @copyright: 19dnorth, 2018
+|----------------------------------------------
+*/
+.footer{
+	padding: 40px 0;
+	background-color: #f2f2f2;
+	li{
+		margin-bottom: 8px;
+		a{
+			font-size: 1em;
+			color: #555;
+		}
+	}
+}

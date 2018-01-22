@@ -1,0 +1,15 @@
+/*
+|----------------------------------------------
+| setting up welcome component style on home page
+| @author: jahid haque <jahid.haque@yahoo.com>
+| @copyright: 19degreenorth, 2018
+|----------------------------------------------
+*/
+.welcome{
+	min-height: 440px;
+	background-image: url("../img/welcomebg.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.8;
+}
